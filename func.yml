@@ -1,7 +1,6 @@
 schema_version: 20180708
-# CAMBIAR: poner el nombre que quieran darle a la función en OCI
 name: rappi-create-order
 version: 0.0.1
-runtime: node
-entrypoint: /oracle/node18/bin/node node_modules/.bin/func.js
+runtime: python310
+entrypoint: /oracle/python3.10/bin/python3 -m fdk func.handler
 memory: 256
