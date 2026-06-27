@@ -50,7 +50,7 @@ def handler(ctx, data: io.BytesIO = None):
 
     try:
         res = requests.post(
-            f"{AWS_URL}/pedidos",
+            f"{AWS_URL}",
             json=payload,
             headers={"Content-Type": "application/json"},
             timeout=10
