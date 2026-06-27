@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: rappi-create-order
 version: 0.0.1
-runtime: python310
+runtime: python3.11
 entrypoint: /oracle/python3.10/bin/python3 -m fdk func.handler
 memory: 256
