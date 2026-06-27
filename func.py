@@ -5,7 +5,7 @@ import requests
 import fdk
 from fdk import response
 
-AWS_URL = os.environ.get("AWS_ORDERS_URL", "https://eobazsxl0g.execute-api.us-east-1.amazonaws.com/dev")
+AWS_URL = os.environ.get("AWS_ORDERS_URL", "https://eobazsxl0g.execute-api.us-east-1.amazonaws.com/dev/pedidos")
 
 def handler(ctx, data: io.BytesIO = None):
 
